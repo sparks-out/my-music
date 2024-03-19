@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #eee;
+    background-color: #222;
     padding: 10px;
 }
 
@@ -24,28 +24,35 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #444;
 }
 
 .artist {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 20px;
-    padding: 20px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
 }
 
+.artist-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.artist-image {
+    flex: 1;
+    text-align: center;
+}
+
 .artist img {
-    width: 40%;
-    object-fit: cover; /* maintain aspect ratio and crop if necessary */
-    margin-right: 20px;
+    max-width: 100%;
+    border-radius: 5px 0 0 5px;
 }
 
 .artist h2 {

@@ -104,23 +104,23 @@ nav a:hover {
     display: inline-block; /* Ensure button displays correctly */
 }
 
-.btn-official {
+.btn.btn-official {
     background-color: #d2b48c; /* Dark beige color */
     color: #fff;
     text-decoration: none;
 }
 
-.btn-official:hover {
+.btn.btn-official:hover {
     background-color: #bea584; /* Darker shade of beige */
 }
 
-.btn-contact {
+.btn.btn-contact {
     background-color: #5d4939; /* Darker shade for contact button */
     color: #fff;
     text-decoration: none;
 }
 
-.btn-contact:hover {
+.btn.btn-contact:hover {
     background-color: #4b3a2c; /* Darker shade on hover */
 }
 
@@ -134,3 +134,37 @@ footer {
 footer p {
     margin-bottom: 10px;
 }
+
+/* Dropdown Menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
+
+/* Show dropdown on hover */
+nav li:hover .dropdown {
+    display: block;
+}
+
+/* Adjust dropdown position */
+nav li:hover .dropdown {
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+

@@ -120,11 +120,14 @@ nav a:hover {
     background-color: #5d4939; /* Darker shade for contact button */
     color: #fff;
     text-decoration: none;
-    float: right;
 }
 
 .btn.btn-contact:hover {
     background-color: #4b3a2c; /* Darker shade on hover */
+}
+
+.contact-btn-container {
+    text-align: right; /* Align the button to the right */
 }
 
 footer {

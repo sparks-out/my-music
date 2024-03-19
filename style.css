@@ -157,14 +157,20 @@ footer p {
 }
 
 /* Show dropdown on hover */
-nav li:hover .dropdown {
+nav ul li:hover .dropdown {
     display: block;
 }
 
 /* Adjust dropdown position */
-nav li:hover .dropdown {
+nav ul li:hover .dropdown {
     top: 100%;
     left: 0;
     z-index: 1;
 }
 
+/* Adjust dropdown position */
+.dropdown {
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}

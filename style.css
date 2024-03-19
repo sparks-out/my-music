@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 /* Show dropdown on hover */
-nav ul li:hover .dropdown {
+nav ul > li:hover .dropdown {
     display: block;
 }
 

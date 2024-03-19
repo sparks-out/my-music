@@ -48,13 +48,15 @@ nav a:hover {
 .artist-image {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: center; /* Align vertically */
 }
 
 .artist img {
     max-width: 100%;
     height: auto;
-    max-height: 200px; /* Smaller image size */
-    border-radius: 5px 0 0 5px;
+    max-height: 250px; /* Slightly larger image size */
+    border-radius: 5px;
 }
 
 .artist h2 {
@@ -102,7 +104,7 @@ nav a:hover {
 
 footer {
     margin-top: 40px;
-    background-color: #ddd;
+    background-color: #ddd; /* Footer background color */
     padding: 20px;
     border-radius: 5px;
 }

@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artist {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.artist h2 {
+    margin-top: 0;
+}
+
+.artist ul {
+    list-style: none;
+    padding

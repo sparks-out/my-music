@@ -52,13 +52,19 @@ nav a:hover {
 
 .artist img {
     max-width: 100%;
-    border-radius: 5px 0 0 5px;
+    height: auto;
+    border-radius: 0 5px 5px 0;
 }
 
 .artist h2 {
     margin-top: 0;
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+.artist p {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .artist ul {

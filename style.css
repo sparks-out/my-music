@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5; /* Default background color */
 }
 
 nav {
@@ -52,7 +52,7 @@ nav a:hover {
 
 .artist img {
     max-width: 100%;
-    height: auto;
+    height: 200px; /* Adjust this value to set the height of the images */
     border-radius: 0 5px 5px 0;
 }
 

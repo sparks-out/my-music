@@ -50,7 +50,8 @@ nav a:hover {
     text-align: center;
     display: flex;
     align-items: center; /* Align vertically */
-    justify-content: center; /* Align horizontally */
+    justify-content: flex-end; /* Move images to the right */
+    padding-right: 20px; /* Add some space to the right */
 }
 
 .artist img {

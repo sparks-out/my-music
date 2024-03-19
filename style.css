@@ -20,6 +20,7 @@ nav ul {
 
 nav li {
     display: inline-block;
+    position: relative; /* Ensure proper positioning of dropdown */
 }
 
 nav a {
@@ -32,6 +33,40 @@ nav a:hover {
     background-color: #555;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    width: 150px; /* Adjust dropdown width */
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
+
+/* Show dropdown on hover */
+nav li:hover .dropdown {
+    display: block;
+}
+
+/* Adjust dropdown position */
+.dropdown {
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+/* Artist Info Section Styling */
 .artist {
     display: flex;
     margin-bottom: 40px; /* Increased space between artists */
@@ -129,48 +164,8 @@ footer {
     background-color: #ddd; /* Footer background color */
     padding: 20px;
     border-radius: 5px;
-}
-
-footer p {
+    }
+    
+    footer p {
     margin-bottom: 10px;
-}
-
-/* Dropdown Menu */
-.dropdown {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    padding: 10px;
-}
-
-.dropdown li {
-    display: block;
-}
-
-.dropdown a {
-    color: white;
-    text-decoration: none;
-}
-
-.dropdown a:hover {
-    text-decoration: underline;
-}
-
-/* Show dropdown on hover */
-nav ul li:hover .dropdown {
-    display: block;
-}
-
-/* Adjust dropdown position */
-nav ul li:hover .dropdown {
-    top: 100%;
-    left: 0;
-    z-index: 1;
-}
-
-/* Adjust dropdown position */
-.dropdown {
-    top: 100%;
-    left: 0;
-    z-index: 1;
-}
+    }

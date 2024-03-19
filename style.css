@@ -67,6 +67,12 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+.artist h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .artist p {
     margin-top: 0;
     margin-bottom: 20px;
@@ -93,16 +99,29 @@ nav a:hover {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Button background color */
-    color: #fff;
-    text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block; /* Ensure button displays correctly */
 }
 
-.btn:hover {
-    background-color: #0056b3; /* Button hover background color */
+.btn-official {
+    background-color: #d2b48c; /* Dark beige color */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-official:hover {
+    background-color: #bea584; /* Darker shade of beige */
+}
+
+.btn-contact {
+    background-color: #5d4939; /* Darker shade for contact button */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contact:hover {
+    background-color: #4b3a2c; /* Darker shade on hover */
 }
 
 footer {

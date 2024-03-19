@@ -55,4 +55,9 @@ nav a:hover {
 
 .artist ul {
     list-style: none;
-    padding
+    padding: 0;
+}
+
+.artist li {
+    margin-bottom: 5px;
+}
